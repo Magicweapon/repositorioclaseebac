@@ -43,6 +43,6 @@ public class HolaMundo : MonoBehaviour
     }
     private void OnDisable()
     {
-        Debug.LogWarning("El objeto ha sido inhabilitado");
+        Debug.LogError("El objeto ha sido inhabilitado");
     }
 }
