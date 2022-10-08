@@ -2,22 +2,14 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Componente1 : MonoBehaviour
+public class SphereColor : MonoBehaviour
 {
-    public static GameObject miObjeto;
-
-    private void Awake()
-    {
-        miObjeto = this.gameObject;
-    }
-
     // Start is called before the first frame update
     void Start()
     {
         
     }
 
-    // Update is called once per frame
     void FixedUpdate()
     {
         Color c = new Color(Random.value, Random.value, Random.value);
