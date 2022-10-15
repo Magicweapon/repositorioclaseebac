@@ -20,7 +20,6 @@ public class Componente1 : MonoBehaviour
     // Update is called once per frame
     void FixedUpdate()
     {
-        Color c = new Color(Random.value, Random.value, Random.value);
-        GetComponent<MeshRenderer>().material.color = c;
+        GetComponent<MeshRenderer>().material.color = new Color(Random.value, Random.value, Random.value);
     }
 }
