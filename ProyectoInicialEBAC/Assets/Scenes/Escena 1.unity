@@ -226,7 +226,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 74241466}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c35a4b8fbcc9a274893b077a0e846fad, type: 3}
   m_Name: 
@@ -338,7 +338,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 204966166}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 6575e3163e7a2f044a8584fc6de8aea4, type: 3}
   m_Name: 
@@ -356,8 +356,8 @@ GameObject:
   - component: {fileID: 257744760}
   - component: {fileID: 257744759}
   - component: {fileID: 257744758}
-  - component: {fileID: 257744762}
   - component: {fileID: 257744763}
+  - component: {fileID: 257744762}
   m_Layer: 0
   m_Name: CubeFromEmpty
   m_TagString: Untagged
@@ -448,11 +448,12 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 257744757}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 77fc06c4f98c4f74995ec020d9836cdd, type: 3}
+  m_Script: {fileID: 11500000, guid: 43aa3edaffcb06442ba85809a5ad42df, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  word: Perro
 --- !u!114 &257744763
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -460,7 +461,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 257744757}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 1990b1e74526e6f4f8bee89116a2e81e, type: 3}
   m_Name: 
@@ -588,7 +589,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 638281043}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 090aacc5fe4d8254baa84ac0ab2ffd78, type: 3}
   m_Name: 
@@ -906,7 +907,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2010318881}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 62b4d65e7ffe59b4f81281c28cfa23ba, type: 3}
   m_Name: 
