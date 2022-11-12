@@ -8,7 +8,7 @@ public class HolaMundo : MonoBehaviour
 
     private void Awake()
     {
-        Debug.Log("Hola desde Awake");
+        //Debug.Log("Hola desde Awake");
     }
 
     // Start is called before the first frame update
