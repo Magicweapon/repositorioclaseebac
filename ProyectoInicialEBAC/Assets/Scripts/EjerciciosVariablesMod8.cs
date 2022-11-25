@@ -22,6 +22,8 @@ public class EjerciciosVariablesMod8 : MonoBehaviour
     string sentence = "Ejercicio para el módulo 8 del curso de Unity";
     string sVar3 = "El perro jugó con la pelota";
 
+    int iVar5 = 0;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -76,11 +78,11 @@ public class EjerciciosVariablesMod8 : MonoBehaviour
             Debug.Log(result);
         }
 
-        var i = 0;
-        for (i = 0; i < sentence.Length; i += 2)
-        {
-            Debug.Log(sentence[i]);
-        }
+        //var i = 0;
+        //for (i = 0; i < sentence.Length; i += 2)
+        //{
+        //    Debug.Log(sentence[i]);
+        //}
 
         string newString = sVar3.Substring(5);
         Debug.Log(newString);
@@ -91,6 +93,13 @@ public class EjerciciosVariablesMod8 : MonoBehaviour
     void Update()
     {
         integerNumber += 2;
+
+        if (iVar5 % 2 == 0 && iVar5 < sentence.Length)
+        {
+            Debug.Log(sentence[iVar5]);
+        }
+        iVar5++;
+
     }
 
     private void FixedUpdate()
