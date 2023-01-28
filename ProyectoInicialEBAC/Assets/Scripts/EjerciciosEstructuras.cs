@@ -45,7 +45,7 @@ public class EjerciciosEstructuras : MonoBehaviour
             intList.Add(integer);
         }
 
-        intList = intList.OrderByDescendent(p => p).ToList();
+        //intList = intList.OrderByDescendent(p => p).ToList();
         var newArray = intList.ToArray();
 
         return newArray;
