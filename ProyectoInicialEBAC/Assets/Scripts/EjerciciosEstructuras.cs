@@ -44,8 +44,8 @@ public class EjerciciosEstructuras : MonoBehaviour
         {
             intList.Add(integer);
         }
-        
-        intList.Sort();
+
+        intList = intList.OrderByDescendent(p => p).ToList();
         var newArray = intList.ToArray();
 
         return newArray;
@@ -70,9 +70,9 @@ public class EjerciciosEstructuras : MonoBehaviour
 
         foreach (var element in stack)
         {
-            Debug.Log(stack.Peek());
-            queue.Enqueue(stack.Pop());
-            Debug.Log(queue.Dequeue());
+            Debug.Log(element);
+            queue.Enqueue(element);
+            Debug.Log(queue.Peek());
         }
     }
 }
